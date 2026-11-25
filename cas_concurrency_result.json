@@ -1,0 +1,528 @@
+{
+  "total_rounds": 20,
+  "single_success_rounds": 20,
+  "double_success_rounds": 0,
+  "zero_success_rounds": 0,
+  "details": [
+    {
+      "round": 1,
+      "user_id": "fault-test-07-1",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-1",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 45.783
+      },
+      "client_b": {
+        "client": "Client-B-1",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 73.919
+      },
+      "success_count": 1
+    },
+    {
+      "round": 2,
+      "user_id": "fault-test-07-2",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-2",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 143.396
+      },
+      "client_b": {
+        "client": "Client-B-2",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 16.287
+      },
+      "success_count": 1
+    },
+    {
+      "round": 3,
+      "user_id": "fault-test-07-3",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-3",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 36.556
+      },
+      "client_b": {
+        "client": "Client-B-3",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 66.289
+      },
+      "success_count": 1
+    },
+    {
+      "round": 4,
+      "user_id": "fault-test-07-4",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-4",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 78.609
+      },
+      "client_b": {
+        "client": "Client-B-4",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 43.861
+      },
+      "success_count": 1
+    },
+    {
+      "round": 5,
+      "user_id": "fault-test-07-5",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-5",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 79.264
+      },
+      "client_b": {
+        "client": "Client-B-5",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 124.416
+      },
+      "success_count": 1
+    },
+    {
+      "round": 6,
+      "user_id": "fault-test-07-6",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-6",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 71.778
+      },
+      "client_b": {
+        "client": "Client-B-6",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 39.504
+      },
+      "success_count": 1
+    },
+    {
+      "round": 7,
+      "user_id": "fault-test-07-7",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-7",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 54.125
+      },
+      "client_b": {
+        "client": "Client-B-7",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 77.237
+      },
+      "success_count": 1
+    },
+    {
+      "round": 8,
+      "user_id": "fault-test-07-8",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-8",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 95.656
+      },
+      "client_b": {
+        "client": "Client-B-8",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 63.52
+      },
+      "success_count": 1
+    },
+    {
+      "round": 9,
+      "user_id": "fault-test-07-9",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-9",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 276.903
+      },
+      "client_b": {
+        "client": "Client-B-9",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 227.296
+      },
+      "success_count": 1
+    },
+    {
+      "round": 10,
+      "user_id": "fault-test-07-10",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-10",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 70.662
+      },
+      "client_b": {
+        "client": "Client-B-10",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 48.471
+      },
+      "success_count": 1
+    },
+    {
+      "round": 11,
+      "user_id": "fault-test-07-11",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-11",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 103.959
+      },
+      "client_b": {
+        "client": "Client-B-11",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 75.264
+      },
+      "success_count": 1
+    },
+    {
+      "round": 12,
+      "user_id": "fault-test-07-12",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-12",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 52.778
+      },
+      "client_b": {
+        "client": "Client-B-12",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 29.727
+      },
+      "success_count": 1
+    },
+    {
+      "round": 13,
+      "user_id": "fault-test-07-13",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-13",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 90.003
+      },
+      "client_b": {
+        "client": "Client-B-13",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 62.593
+      },
+      "success_count": 1
+    },
+    {
+      "round": 14,
+      "user_id": "fault-test-07-14",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-14",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 42.812
+      },
+      "client_b": {
+        "client": "Client-B-14",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 75.268
+      },
+      "success_count": 1
+    },
+    {
+      "round": 15,
+      "user_id": "fault-test-07-15",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-15",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 84.798
+      },
+      "client_b": {
+        "client": "Client-B-15",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 61.783
+      },
+      "success_count": 1
+    },
+    {
+      "round": 16,
+      "user_id": "fault-test-07-16",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-16",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 82.058
+      },
+      "client_b": {
+        "client": "Client-B-16",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 61.165
+      },
+      "success_count": 1
+    },
+    {
+      "round": 17,
+      "user_id": "fault-test-07-17",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-17",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 43.377
+      },
+      "client_b": {
+        "client": "Client-B-17",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 18.925
+      },
+      "success_count": 1
+    },
+    {
+      "round": 18,
+      "user_id": "fault-test-07-18",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-18",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 53.365
+      },
+      "client_b": {
+        "client": "Client-B-18",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 28.565
+      },
+      "success_count": 1
+    },
+    {
+      "round": 19,
+      "user_id": "fault-test-07-19",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-19",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 48.516
+      },
+      "client_b": {
+        "client": "Client-B-19",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 85.307
+      },
+      "success_count": 1
+    },
+    {
+      "round": 20,
+      "user_id": "fault-test-07-20",
+      "expected_version": 1,
+      "client_a": {
+        "client": "Client-A-20",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": true,
+          "version": 2
+        },
+        "elapsed_ms": 49.661
+      },
+      "client_b": {
+        "client": "Client-B-20",
+        "status_code": 200,
+        "result": {
+          "scope": "local-only",
+          "success": false,
+          "version": 2
+        },
+        "elapsed_ms": 75.4
+      },
+      "success_count": 1
+    }
+  ]
+}

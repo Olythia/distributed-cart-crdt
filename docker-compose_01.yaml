@@ -1,0 +1,46 @@
+services:
+  node-a:
+    build:
+      context: .
+      dockerfile: node/Dockerfile
+    container_name: kv-node-a
+    environment:
+      NODE_ID: A
+      PORT: 8001
+      DB_PATH: /data/cart.db
+      PEERS: http://node-b:8002,http://node-c:8003
+    ports: ["8001:8001"]
+    volumes: ["./data/node-a:/data"]
+    cap_add:      
+      - NET_ADMIN
+      - NET_RAW
+  node-b:
+    build:
+      context: .
+      dockerfile: node/Dockerfile
+    container_name: kv-node-b
+    environment:
+      NODE_ID: B
+      PORT: 8002
+      DB_PATH: /data/cart.db
+      PEERS: http://node-a:8001,http://node-c:8003
+    ports: ["8002:8002"]
+    volumes: ["./data/node-b:/data"]
+    cap_add:   
+      - NET_ADMIN
+      - NET_RAW
+  node-c:
+    build:
+      context: .
+      dockerfile: node/Dockerfile
+    container_name: kv-node-c
+    environment:
+      NODE_ID: C
+      PORT: 8003
+      DB_PATH: /data/cart.db
+      PEERS: http://node-a:8001,http://node-b:8002
+    ports: ["8003:8003"]
+    volumes: ["./data/node-c:/data"]
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
