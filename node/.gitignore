@@ -1,16 +1,32 @@
-# 忽略本地数据库数据
-data/
-*.db
-*.sqlite3
-*.db-wal
-*.db-shm
 
-# 忽略 Python 缓存
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Virtual environment
 .venv/
 venv/
+env/
 
-# 忽略系统文件
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Test and cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# OS
 .DS_Store
 Thumbs.db
